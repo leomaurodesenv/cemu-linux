@@ -1,0 +1,2 @@
+#!/bin/sh
+vblank_mode=0 mesa_glthread=true wine "$@"

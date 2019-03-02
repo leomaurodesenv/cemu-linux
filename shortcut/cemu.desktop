@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Cemu Emulator
+GenericName=Cemu Emulator
+Comment=Cemu Emulator
+Exec=wine-emulator /home/username/cemu/Cemu.exe
+Icon=/snap/icon/cemu.ico
+Terminal=true
+Type=Application
+StartupNotify=true
+Categories=Application;
+Name[en_US]=cemu.desktop
