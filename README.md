@@ -127,7 +127,7 @@ $ unzip graphicPacksxxx.zip -d ~/cemu/graphicPacks/
 
 ```shell
 #- execute cemu
-$ vblank_mode=0 mesa_glthread=true wine ~/cemu/Cemu.exe
+$ vblank_mode=0 mesa_glthread=true R600_DEBUG=nohyperz wine ~/cemu/Cemu.exe
 
 #- Configuration by the menu
 # Select: Options > GPU buffer cache accuracy > Low (fast)
@@ -155,7 +155,7 @@ $ jstest-gtk
 $ cd ~/cemu
 
 #- run
-$ vblank_mode=0 mesa_glthread=true wine Cemu.exe
+$ vblank_mode=0 mesa_glthread=true R600_DEBUG=nohyperz wine Cemu.exe
 
 #- add a game
 # Select file: (Menu) File > Install Update/DLC

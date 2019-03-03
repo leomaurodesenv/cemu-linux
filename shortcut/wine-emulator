@@ -1,2 +1,2 @@
 #!/bin/sh
-vblank_mode=0 mesa_glthread=true wine "$@"
+vblank_mode=0 mesa_glthread=true R600_DEBUG=nohyperz wine "$@"
