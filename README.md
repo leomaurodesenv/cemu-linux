@@ -7,8 +7,8 @@ Important links:
 - [Cemu Graphic Packs](https://github.com/slashiee/cemu_graphic_packs/releases): graphic packs that improve games graphics.
    
 **Features**:
-- `REAMD.md`: steps to install Cemu, wine, drivers and some features.
-- `/shortcut/`: how to create a shortcut for Cemu.
+- `/shortcut/`: steps to create a shortcut for Cemu in Linux.
+- `README.md`: steps to install Cemu, wine, drivers and some features.
    
 ---
 ## Summary
@@ -184,6 +184,7 @@ Read about [Cemuhook](https://cemuhook.sshnuke.net/), some [projects](https://gi
 ---
 ### Also look ~
 
+- [Contributors](CONTRIBUTORS.md)
 - License: [MIT](LICENSE)
 - Create by Leonardo Mauro (leo.mauro.desenv@gmail.com)
 - GitHub: [leomaurodesenv](https://github.com/leomaurodesenv/)
