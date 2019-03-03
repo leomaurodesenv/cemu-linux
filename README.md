@@ -40,9 +40,7 @@ Important links:
 
 ```shell
 #- add apt key
-$ wget -nc https://dl.winehq.org/wine-builds/Release.key
-$ sudo apt-key add Release.key
-$ rm Release.key
+$ wget -nc https://dl.winehq.org/wine-builds/winehq.key && sudo apt-key add winehq.key && sudo apt update
 
 #- add wine official repository
 $ sudo apt-add-repository https://dl.winehq.org/wine-builds/ubuntu/
