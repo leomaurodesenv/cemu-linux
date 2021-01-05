@@ -1,10 +1,12 @@
 ## Add Shortcut in Linux
 
-This tutorial enable create a shortcut for **Cemu Emulator**.   
+This tutorial enables creation of a shortcut for **Cemu Emulator**.
 
-Files of this repository:
-- `cemu.ico`: cemu ico.
-- `cemu.png`: cemu ico.
+It assumes you have either cloned the repository or downloaded and extracted [the zip file](https://github.com/leomaurodesenv/cemu-linux/archive/master.zip).
+
+Files in this repository:
+- `cemu.ico`: cemu icon.
+- `cemu.png`: cemu icon.
 - `cemu.desktop`: cemu shortcut.
 - `wine-emulator`: new command line.
 
@@ -12,7 +14,7 @@ Files of this repository:
 
 ```shell
 #- open this folder
-$ cd [..]/cemu-smm-linux/shortcut
+$ cd [..]/cemu-linux/shortcut
 
 #- create a new command 'wine-emulator'
 #  enable cemu performance by a one command line
@@ -25,7 +27,7 @@ $ sudo chmod +x /usr/bin/wine-emulator
 ```shell
 #- change the main directory
 #  change the username in: /home/username/[..]
-#  replace by the user name of your computer
+#  replace with the user name of your computer
 $ gedit cemu.desktop
 
 #- create icon image folder
@@ -35,16 +37,17 @@ $ sudo cp cemu.ico /snap/icon
 $ sudo cp cemu.png /snap/icon
 
 #- copy desktop
-#  note: /usr/share/applications is the applications 
+#  note: /usr/share/applications is the applications
 #  folder for Ubuntu SO, for other Linux the path may change
 $ sudo cp cemu.desktop /usr/share/applications
 ```
 
-Search by: Cemu Emulator (in your Applications).   
-Enjoy!   
+Search for: Cemu Emulator (in your Applications).
+Enjoy!
 
 ---
-   
-## Also look ~      
-- Create by Leonardo Mauro (leo.mauro.desenv@gmail.com)
+
+## Also see ~
+
+- Created by Leonardo Mauro (leo.mauro.desenv@gmail.com)
 - GitHub: [cemu-linux](https://github.com/leomaurodesenv/cemu-linux)
