@@ -121,7 +121,7 @@ $ xdg-open https://github.com/slashiee/cemu_graphic_packs/releases
 $ unzip graphicPacksxxx.zip -d ~/cemu/graphicPacks/
 ```
 
-### Performace
+### Play with Performace
 
 ```shell
 #- execute cemu
@@ -146,7 +146,7 @@ $ sudo apt-get install jstest-gtk
 $ jstest-gtk
 ```
 
-### Play!
+### Play with Performace
 
 ```shell
 #- open cemu
@@ -184,6 +184,4 @@ Read about [Cemuhook](https://cemuhook.sshnuke.net/), some [projects](https://gi
 
 - [Contributors](CONTRIBUTORS.md)
 - License: [MIT](LICENSE)
-- Create by Leonardo Mauro (leo.mauro.desenv@gmail.com)
-- GitHub: [leomaurodesenv](https://github.com/leomaurodesenv/)
-- Site: [Portfolio](http://leonardomauro.com/portfolio/)
+- Create by [leomaurodesenv](https://github.com/leomaurodesenv/)
